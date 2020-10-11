@@ -291,7 +291,9 @@ tr{
     }
     
     .pilt img{
-         width: auto;
+         min-width: 400px;
+        width: auto;
+        height: auto;
 
     padding-top: 30px;
         max-width: 90%;
