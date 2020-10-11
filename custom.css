@@ -251,3 +251,106 @@ tr{
     
 }
 
+@media only screen and (max-width: 500px) {
+    
+    
+    .menu{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 30px 10px;
+    
+}
+
+
+
+.menu a {
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 550;
+    text-decoration-color: white;
+    color: white;
+    font-size: 18;
+    padding: 3px;
+    }
+    .pea {
+
+    }
+    
+    h1  {
+        font-size: 30px;
+    }
+    
+     h2 {
+        font-size: 20px;
+    }
+    
+    .pilt img{
+         width: auto;
+
+    padding-top: 30px;
+        max-width: 70%;
+    max-height: 100%;
+        margin: auto;}
+
+
+.keha{
+    width: auto;
+    margin: auto;
+    
+}
+    
+    .meist{
+    display:list-item;
+    
+}
+    img{
+        max-width: 40%;
+    }
+    .tekst{
+    font-family: sans-serif;
+    font-size: 15;
+    padding: 15px  15px 30px;
+    width: 300px;
+    text-align: justify;
+    font-weight: 200;
+    
+}
+    
+    form{
+    margin:auto;
+        width: 
+}
+    
+    table {
+    border-collapse: collapse;
+    width: calc(100%);
+
+    
+    
+}
+    
+    table, th, td {
+  border: 1px solid black;
+    text-align: center;
+    padding: 7px;
+    
+
+}
+    
+    th{
+    background-color: #C6C6C6;
+    color: white;
+    font-size: 20px;
+}
+
+tr{
+    background-color: #F1F1F1;
+    font-size: 15px;
+}
+    
+    
+}
+
