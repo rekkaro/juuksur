@@ -1,0 +1,82 @@
+/* General */
+
+.contact {
+	margin-top: 40px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-form {
+	width: 100%;
+	max-width: 1000px;
+	height: 100%;
+	flex-direction: column;
+}
+
+.btn {
+	width: 350px;
+	margin: 20px 0;
+}
+
+#contact-title {
+	margin-bottom: 30px;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+/* Inputs design */
+
+.data-group input {
+	width: 25%;
+	min-width: 200px;
+}
+
+.msg-group input {
+	width: 50%;
+	min-width: 400px;
+}
+
+input {
+	font-size: 16px;
+	margin-bottom: 10px;
+	padding: 15px;
+	border-radius: 1em;
+	border: 1px solid #6a6b6b;
+	background-color: #c6c6c6;
+}
+
+.btn input {
+	width: 100%;
+	cursor: pointer;
+	color: #fff;
+	text-align: center;
+	background-color: #919191;
+}
+
+input::placeholder {
+	color: #ffffff;
+	font-weight: 500;
+}
+
+/* Hovering action */
+
+input:hover {
+	background-color: #969696;
+	color: #ffffff;
+}
+
+.btn input:hover {
+	background-color: #696969;
+}
+
+/* MEDIA */
+@media screen and (max-width: 700px) {
+	.data-group input,
+	.msg-group input {
+		min-width: 350px;
+	}
+}

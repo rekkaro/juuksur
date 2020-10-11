@@ -1,44 +1,57 @@
 <html lang="ee">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content=""> 
-        <meta name="author" content="">
-        <title>Kontakt</title>
-        <link rel="stylesheet" href="custom.css">
-        
-    </head>
-    <body>
-        <!-- päis --->
-        <center>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="contact.css">
+
+    <script src="contact.js"></script>
+</head>
+
+<body>
+    <!-- header --->
+    <center>
         <div class="header">
-              <a href="index.html">
-  <img src="trans.png" style="float:left;width:70px;height:60px;">
-</a>
+            <a href="index.html">
+                <img class="logo" src="img/trans.png">
+            </a>
             <div class="pea">
-                <div class ="menu">
+                <div class="menu">
                     <a href="meist.html">Meist</a>
                     <a href="broneeri.html">Broneeri</a>
                     <a href="kontakt.html">Kontakt</a>
                 </div>
             </div>
-            
         </div>
-         <!-- keha --->
-        <div class = "keha">
-            <div class="kontakt">
+
+        <!-- contact form --->
+        <div class="contact">
+            <div id="contact-title">
                 <h1>Võta meiega ühendust!</h1>
-                <form>
-                <input type="text" id="fname1" name="fname" value="Eesnimi"size="20">
-                <input type="text" id="fname2" name="fname" value="E-mail" size="20"><br><br>
-                <input type="text" id="fname3" name="fname" value="Teema" size="43"><br><br>
-                <input type="text" id="fname4" name="fname" value="Sõnum" size="43" height="48"><br><br>
-                </form>
-                <button>Saada</button>
-        
             </div>
-           
+
+            <form name="myform" class="contact-form" method="POST" action="https://rekkaro.github.io/juuksur/kontakt.html"
+                onsubmit="return validateform()">
+                <div class="data-group">
+                    <input type="text" id="name" placeholder="Eesnimi">
+                    <input type="email" id="email" placeholder="Email">
+                </div>
+
+                <div class="msg-group">
+                    <input type="text" id="topic" placeholder="Teema">
+                    <input type="text" id="message" placeholder="Sõnum">
+                </div>
+                <div class="btn">
+                    <input type="submit" value="Saada" />
+                </div>
+            </form>
         </div>
     </center>
-    </body>
+</body>
+
+</html>
